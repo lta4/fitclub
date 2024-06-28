@@ -9,8 +9,8 @@ const Join = () => {
         e.preventDefault();
     
         emailjs
-          .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-            publicKey: 'YOUR_PUBLIC_KEY',
+          .sendForm('service_3jkbh4a', 'template_2n4ipas', form.current, {
+            publicKey: 'TCFxEVL_VTZ_P5o5g',
           })
           .then(
             () => {
