@@ -23,3 +23,15 @@
     font-weight: bold;
     font-size: 3rem;
 }
+
+.left-t > :nth-child(4) {
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.right-t {
+    flex: 1;
+    position: relative;
+}
