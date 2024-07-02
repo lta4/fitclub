@@ -191,6 +191,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
     .hero {
         flex-direction: column;
     }
@@ -203,7 +204,7 @@
         margin-top: 0;
         font-size: small;
         align-self: center;
-        transform: scale(0.0);
+        transform: scale(0.8);
     }
 
     .hero-text {
@@ -262,5 +263,12 @@
         left: 7rem;
         top: 4rem;
         align-self: center;
-    };
+    }
+
+    .hero-image-back {
+        width: 15rem;
+        left: 2rem;
+        top: 0rem;
+        
+    }
 }
