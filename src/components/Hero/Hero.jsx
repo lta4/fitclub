@@ -6,6 +6,7 @@ import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import {motion} from "framer-motion";
+import CountUp from "react-countup";
 
 const Hero = () => {
 
@@ -43,15 +44,36 @@ const Hero = () => {
                 {/* figures */}
                 <div className="figures">
                     <div>
-                        <span>+140</span>
+                        <span>
+                            <CountUp 
+                                end={140}
+                                start={100}
+                                delay="0"
+                                prefix="+"
+                            />
+                        </span>
                         <span>expert coaches</span>
                     </div>
                     <div>
-                        <span>+978</span>
+                        <span>
+                            <CountUp
+                                end={978}
+                                start={800}
+                                delay="0"
+                                prefix="+" 
+                            />
+                        </span>
                         <span>members joined</span>
                     </div>
                     <div>
-                        <span>+50</span>
+                        <span>
+                            <CountUp
+                                end={50}
+                                start={0}
+                                delay="0"
+                                prefix="+" 
+                            />
+                        </span>
                         <span>fitness programs</span>
                     </div>
                 </div>
